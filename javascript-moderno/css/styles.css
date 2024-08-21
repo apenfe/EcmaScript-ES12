@@ -1,0 +1,18 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.ficha{
+    border: 0.2rem solid black;
+    background-color: white;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    width: 25rem;
+    margin: 1rem auto;
+}
