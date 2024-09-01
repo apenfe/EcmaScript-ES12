@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data</title>
+
+        <style>
+
+            li[data-continente="europa"]{
+                background-color: lightblue;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+
+            li[data-continente="oceania"]{
+                background-color: lightgreen;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+
+            li[data-continente="america"]{
+                background-color: lightcoral;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Atributos data</h1>
+
+        <ul id="lista">
+            <li data-continente="europa">España</li>
+            <li data-continente="america">Mexico</li>
+            <li data-continente="europa">Alemania</li>
+            <li data-continente="oceania">Australia</li>
+        </ul>
+
+        <script src="./main.js"></script>
+
+    </body>
+
+</html>
