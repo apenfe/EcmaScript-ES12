@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ONLINE OFFLINE</title>
+        <script src="./main.js" defer></script>
+        <style>
+            .online, .offline{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid black;
+                width: 250px;
+                height: 50px;
+                padding: 20px;
+                border-radius: 5px;
+                margin: 10px;
+                text-align: center;
+                box-shadow: 1px 2px 10px gray;
+            }
+
+            .online{
+                background-color: green;
+                color: white;
+            }
+
+            .offline{
+                background-color: red;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="online">
+            Estas conectado...
+        </div>
+
+        <div class="offline">
+            No tienes conexion...
+        </div>
+        
+    </body>
+
+</html>
